@@ -1,16 +1,16 @@
-import Link from "next/link";
 import React from "react";
 import InfoBox from "./InfoBox";
 
 const InfoBoxes = () => {
   return (
     <section>
-      <div className="container-xl lg:container m-auto">
+      <div className="container-xl lg:container m-auto py-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
           <InfoBox
             heading="For Renters"
             backgroundColor="bg-gray-100"
-            backgroundColorDark="bg-gray-800"
+            backgroundColorDark="bg-gray-900"
+            textColor=""
             buttonInfo={{
               text: "Browse Properties",
               link: "/properties",
