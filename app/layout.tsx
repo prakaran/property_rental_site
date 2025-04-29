@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextQuest",
+  title: "NestQuest",
   description: "Find The Perfect Rental Property",
 };
 
